@@ -6,9 +6,14 @@ import Search from "./components/search/search"
 import "./sass/pages/home.scss"
 
 function App() {
+
+  const handleOnSearchChange = (searchData) => {
+    console.log(searchData);
+  }
+
   return (
     <div className="container">
-      <Search />
+      <Search onSearchChange={handleOnSearchChange}/>
     </div>
   );
 }
