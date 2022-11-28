@@ -1,4 +1,27 @@
-.container {
-    max-width: 1080px;
-    margin: 0 auto;
+body {
+    margin: 0;
+    font-family: "Roboto", Arial;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #d5d4d4;
+    background-image: url(../../icon/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+}
+
+.container {
+    // max-width: 1080px;
+    margin: 20px auto 0 auto;
+    /* Search bar */
+    .css-b62m3t-container {
+        width: 90%;
+        margin: 0 auto 15px auto;
+    }
+}
+
