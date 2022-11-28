@@ -19,3 +19,6 @@ I except to improve my fetch on the temperature on the Open Weather Api and impr
 ## How to use the project ?
 
 You just have to add some text in the blank and click on enter or just press the suggestion.
+
+## Link of the deploy
+I love supporting the **[Here is the link](https://charming-cassata-2d9ec5.netlify.app/)**
